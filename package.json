@@ -1,0 +1,33 @@
+{
+  "name": "web-app_nextjs_typescript_hello-world",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 4040",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@auth0/nextjs-auth0": "3.5.0",
+    "@neondatabase/serverless": "0.10.4",
+    "axios": "^1.6.0",
+    "dotenv": "16.4.7",
+    "drizzle-orm": "0.38.4",
+    "next": "14.0.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "server-only": "^0.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "drizzle-kit": "0.30.2",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.0",
+    "prettier": "^3.0.3",
+    "tsx": "4.19.2",
+    "typescript": "^5"
+  }
+}
