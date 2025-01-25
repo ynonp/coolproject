@@ -1,6 +1,5 @@
 import { NextPage } from "next";
 import React from "react";
-import { CodeSnippet } from "@/components/code-snippet";
 import { getPeople } from "@/services/people.service";
 
 const Public: NextPage = async () => {
@@ -14,7 +13,7 @@ const Public: NextPage = async () => {
       <div className="people">
         <ul>
         {people.map(user => (
-          <li>{user.email}</li>
+          <li key={user.email}>{user.email}</li>
         ))}
         </ul>
         <hr />
