@@ -8,7 +8,7 @@ const Public: NextPage = async () => {
   return (
     <div className="content-layout">
       <h1 id="page-title" className="content__title">
-        Public Page - list of people
+        My Cool Project
       </h1>
       <div className="people">
         <ul>
